@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Grey-500: hsl(234, 12%, 34%);
+    --Grey-400: hsl(212, 6%, 44%);
+    --White: hsl(0, 0%, 100%);
+
+    --fonte-destaque: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #FAFAFA;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    color: var(--Grey-500);
+    font-weight: 400;
+    max-width: 37.5rem;
+    margin-top: 5rem;
+}
+
+header > h1{
+    color: var(--Grey-400);
+    font-weight: 200;
+}
+
+header > h2{
+    font-weight: 600;
+}
+
+main{
+    max-width: 37.5rem;
+}
+
+section{
+    background-color: var(--White);
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin: 3rem 0rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section > h1{
+    color: var(--Grey-500);
+    font-weight: 600;
+}
+
+section > p{
+    color: var(--Grey-500);
+    font-weight: 400;
+}
+
+section > img{
+    align-self: flex-end;
+    margin-top: 5rem;
+}
+
+.supervisor{
+    border-top: .5rem solid var(--Cyan);
+}
+
+.builder{
+    border-top: .5rem solid var(--Red);
+}
+
+.karma{
+    border-top: .5rem solid var(--Orange);
+}
+
+.calculator{
+    border-top: .5rem solid var(--Blue);
+}
