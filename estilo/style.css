@@ -94,3 +94,8 @@ section > img{
 .calculator{
     border-top: .5rem solid var(--Blue);
 }
+
+footer{
+    text-align: center;
+    text-decoration: none;
+}
