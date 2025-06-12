@@ -30,6 +30,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    padding: 2rem;
 }
 
 header{
