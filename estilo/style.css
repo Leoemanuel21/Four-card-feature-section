@@ -58,6 +58,7 @@ section{
     background-color: var(--White);
     height: 20rem;
     border-radius: 1rem;
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.11);
     padding: 3rem;
     margin: 3rem 0rem;
     display: flex;
