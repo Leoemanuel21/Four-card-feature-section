@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1440px){
+    header{
+        max-width: 50rem;
+    }
     
+    main{
+        max-width: 127.5rem;
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(3, 1fr);
+        gap: 3rem;
+        align-items: center;
+    }
+    
+    .supervisor {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    .builder {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .karma {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .calculator {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
 }

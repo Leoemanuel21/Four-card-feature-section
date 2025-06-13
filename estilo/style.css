@@ -48,6 +48,11 @@ header > h1{
 
 header > h2{
     font-weight: 600;
+    font-size: 3rem;
+}
+
+header > p{
+    margin: 2rem 0rem;
 }
 
 main{
